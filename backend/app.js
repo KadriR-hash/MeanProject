@@ -144,8 +144,5 @@ app.delete("/users/:id",(req,res)=>{
 })
 
 
-
-
-
 //export app
 module.exports = app;
