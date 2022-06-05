@@ -7,7 +7,8 @@ const userSchema = mongoose.Schema({
     lastName: String,
     email: String,
     password: String,
-    tel: String
+    tel: String,
+    role: String
 });
 
 // generate model user
