@@ -15,7 +15,6 @@ const Plat = require('./models/plat');
 
 //import body-parser
 const bodyParser = require('body-parser');
-const user = require('./models/user');
 
 // import bcrypt
 const bcrypt = require("bcrypt");
