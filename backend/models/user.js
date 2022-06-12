@@ -8,7 +8,10 @@ const userSchema = mongoose.Schema({
     email: String,
     password: String,
     tel: String,
-    role: String
+    role: String,
+    speciality : String,
+    experience :String,
+    dateOfBirth : String
 });
 
 // generate model user
